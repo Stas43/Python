@@ -1,0 +1,65 @@
+/* flexbox, grid */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Courier New, serif;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+	gap: 15px;
+}
+
+.headers {
+	background: black;
+	color: white;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.paragraphs {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 15px;
+	
+}
+
+.functional {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+
+button:hover, select:hover {
+	cursor: pointer;
+	background: azure;
+	padding: 10px 15px;
+}
+
+button {
+	margin-top: 200px;
+	background: white;
+	border: 1px solid teal;
+	padding: 5px 10px; 
+	border-radius: 45px;
+}
+
+.lists {
+	font-size: 14px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.text {
+	text-shadow: green 2px 5px;
+	font-size: 24px;
+	font-style: italic;
+}
